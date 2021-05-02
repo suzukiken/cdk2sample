@@ -1,0 +1,12 @@
+{
+  "app": "npx ts-node --prefer-ts-exts bin/cdk2sample.ts",
+  "context": {
+    "@aws-cdk/aws-apigateway:usagePlanKeyOrderInsensitiveId": true,
+    "@aws-cdk/core:stackRelativeExports": "true",
+    "@aws-cdk/aws-rds:lowercaseDbIdentifier": true,
+    "domain": "figmentresearch.com",
+    "subdomain": "subdomain2",
+    "crossregion_acmarn_exportname": "figmentresearch-wildcard-notrhvirginia-acmarn",
+    "s3bucketname_exportname": "subdomain2-figmentresearch-bucketname"
+  }
+}
